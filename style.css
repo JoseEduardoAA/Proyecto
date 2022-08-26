@@ -1,8 +1,9 @@
 header{
     background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg") ;
-height: 340px; 
-width: 150%;
+height: 338px; 
+width: 100%;
 background-repeat: no-repeat;
+background-size: cover;
 }
 ul {
     display: flex;
@@ -15,16 +16,46 @@ p{
 h4{
     text-align: center;
 }
-h1{
-    color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 h2{
-    color: rgb(151, 196, 67);
+    color: rgba(215, 218, 88, 0.726);
     text-align: center;
 }
 li{
-    padding: 10px;
+ padding: 15px;
 list-style: none;
 }
-
+a{
+    color: #104c42;
+    text-decoration: none;
+}
+img{
+    margin: 10px;
+height: 50px;
+width: 500px;
+}
+h1{
+    padding: 2em 10em 7em 5em;
+}
+.letras2{
+    color: rgb(255, 255, 255);
+    margin: 200px
+}
+.letrasg{
+font-size: 40px;
+}
+.letras3{
+    margin: 300px;
+font-size: 40px;
+}
+.letras4{
+    margin: 300px;
+    font-size: 30px;
+}
+.contenedor{
+    margin: 100px;
+    color: white;
+}
+nav{
+    border-top: 2px solid rgba(175, 168, 168, 0.37);
+}
